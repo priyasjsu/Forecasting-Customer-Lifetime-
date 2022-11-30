@@ -7,16 +7,27 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Amplify} from 'aws-amplify'
 import config from './aws-exports'
-import { AmplifyProvider } from '@aws-amplify/ui-react'
-
+import { Authenticator } from '@aws-amplify/ui-react';
+import {  IconContext } from 'react-icons';
+import {BsPersonCircle} from 'react-icons/bs';
 Amplify.configure(config)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AmplifyProvider>
-    <App />
-    </AmplifyProvider>
+    <Authenticator>
+      {({ signOut, user }) => (
+        <div>
+          {/* {console.log(user)} */}
+          {/* <h1></h1> */}
+          <IconContext.Provider value={{ size : "2em" }}>
+          <div className = "pericon"> <BsPersonCircle/></div>
+          </IconContext.Provider>
+          <button onClick={signOut}>Sign out</button>
+          <App />
+          </div>
+      )}
+    </Authenticator>
   </React.StrictMode>
 );
 
