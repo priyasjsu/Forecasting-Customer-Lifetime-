@@ -12,17 +12,6 @@ code {
     monospace;
 }
 
-button {
-  float: right;
-  margin-right: 21px;
-}
-.pericon {
-  float: right;
-  margin-right: 21px;
-}
-.ml {
-  margin-left: 94px;
-}
 #debug-container {
   display: none;
 }
