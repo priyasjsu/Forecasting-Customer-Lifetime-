@@ -29,7 +29,7 @@ root.render(
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link target="_blank" href="http://ec2-54-241-114-164.us-west-1.compute.amazonaws.com:8080/">Customer Value Prediction</Nav.Link>
+                <Nav.Link target="_blank" href="http://ec2-13-52-215-47.us-west-1.compute.amazonaws.com:8080/">Customer Value Prediction</Nav.Link>
               </Nav>
               <Nav>
                 <NavDropdown title={<span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
