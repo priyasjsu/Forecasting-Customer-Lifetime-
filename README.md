@@ -1,5 +1,6 @@
 
 <img width="1200" height="500" src="images/customer_banner.png"/>
+
 # Forecasting-Customer-Lifetime
 
 ## Project Overview
