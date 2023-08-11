@@ -15,9 +15,11 @@ Machine Learning Models, AWS Glue, React UI, AWS Amplify, and Tableau Dashboard.
 After performing ETL using AWS Glue data is stored in AWS Redshift.
 
 ### Machine Learning Models
-Choose appropriate machine learning models (e.g., XGBoost, Decision Tree, Random Forest, k-Nearest Neighbors) based on performance and suitability.
-Enhance model effectiveness by conducting feature engineering, identifying essential features, and engineering new ones.
+We have chosen appropriate machine learning models (e.g., XGBoost, Decision Tree, Random Forest, k-Nearest Neighbors etc) based on performance and suitability.
+Enhanced model effectiveness by conducting feature engineering, identifying essential features, and engineering new ones.
 Train the chosen models using historical data and gauge their performance using metrics like accuracy, precision, recall, and F1-score.
+If you want to check the implementation follow link: [Machine Learning Models](https://github.com/priyasjsu/Forecasting-Customer-Lifetime-/blob/master/ETL_backend_python_code/biddata-ml.ipynb)
+
 
 ## UI Development
 ### System Architecture Flow Design
@@ -25,25 +27,27 @@ Train the chosen models using historical data and gauge their performance using 
 
 ### System Architecture Flow With Technology
 <img width="673" alt="image" src="https://github.com/priyasjsu/Forecasting-Customer-Lifetime-/assets/113324576/1eb0ca41-4bae-46df-a2ea-bd8d25c3d933"/>
+
 #### Tableau Dashboard Integration:
 Establish a connection between Tableau and the prepared data source.
 Created interactive and visually appealing data visualizations and dashboards, enabling exploration of customer behaviour, trends, and churn predictions.
 Seamlessly embed the Tableau dashboard within the React UI, providing a cohesive data exploration experience.
-Tableau Dashboard link [Data Exploration Dashboard](https://public.tableau.com/app/profile/priya6730/viz/project-bigdata-228/Dashboard1)
+Public Tableau Dashboard link: [Data Exploration Dashboard](https://public.tableau.com/app/profile/priya6730/viz/project-bigdata-228/Dashboard1)
 
 ### AWS Amplify Integration:
 Secure user access to the React UI by implementing user authentication via AWS Amplify.
 Monitor user activities and establish logging mechanisms using AWS Amplify functionalities.
 <img width="686" alt="image" src="https://github.com/priyasjsu/Forecasting-Customer-Lifetime-/assets/113324576/a0704637-b45a-4c1e-b378-6d6b9aa22534">
-The above image illustrates the flow and authentication process of web application using react web framework and amplify react library.
 
 ### Continuous Integration and Continuous Deployment (CI/CD) Process
 Implemented a robust CI/CD process to ensure efficient and automated deployment of project updates we have utilized GitHub and AWS S3 bucket functionality to implement CI/CD and host the application (but  the application is not up and running this time due to extra cost). This process enhances collaboration among developers, minimizes errors, and accelerates the delivery of new features or improvements. 
 #### Here's an overview/flow of the CI/CD deployment process for the project:
 <img width="659" alt="image" src="https://github.com/priyasjsu/Forecasting-Customer-Lifetime-/assets/113324576/2e5311b8-64d7-4dd8-b1e7-5b2c63c8a02a">
 
-You can set up the Web Application on your system using below command, although for Machine learning models you need to download backend_python_code to train the ML models and deploy using AWS or other services. 
+### Set up the web application
+You can set up the Web Application on your system using the below command, although for Machine learning models you need to download backend_python_code to train the ML models and deploy using AWS or other services.
 In the project directory after cloning the repo, you can run:
+
 ### `npm start`
 
 Runs the app in the development mode.\
