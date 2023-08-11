@@ -1,7 +1,9 @@
 
 <img width="1200" height="500" src="images/customer_banner.png"/>
 # Forecasting-Customer-Lifetime
+
 ## Project Overview
+
 This project aims to predict customer churn using various machine learning models, such as XGBoost, Decision Tree, Random Forest, and k-Nearest Neighbors. The project also involves Extract, Transform, Load (ETL) processes using AWS Glue, implementing a user interface (UI) with React, enabling user authentication and logging with AWS Amplify, and integrating a Tableau dashboard for data exploration.
 #### Introduction
 The Customer Churn Prediction and Data Exploration Project is a comprehensive endeavour aimed at addressing the challenge of customer churn in the business landscape. Customer churn refers to the phenomenon where customers discontinue their engagement with a product or service. This project leverages advanced machine learning models, data processing pipelines, modern user interface design, and data visualization techniques to tackle this critical issue.
